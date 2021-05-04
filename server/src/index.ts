@@ -20,7 +20,7 @@ async function StartServer() {
 		type: 'mongodb',
 		host: 'localhost',
 		port: 27017,
-		database: 'graphql-api',
+		database: 'sread-sheet-api',
 		logging: true,
 		entities: ['src/models/*{.ts,.js}'],
 		useUnifiedTopology: true,
